@@ -1,10 +1,12 @@
 {
   "name": "@voomly_llc/winreg",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "provides access to the windows registry through the REG tool",
   "main": "lib/registry.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "release": "yarn publish",
+    "release:beta": "yarn publish --tag=beta"
   },
   "homepage": "https://github.com/voomly/node-winreg",
   "repository": {
